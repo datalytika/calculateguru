@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/datalytika/calculateguru">
-    <img width="100%" src="" alt="@datalytika/calculateguru">
+    <img width="100%" src="https://github.com/datalytika/calculateguru/blob/main/CONVERT.JPG?raw=true" alt="@datalytika/calculateguru">
   </a>
   <br>
   <a href="https://github.com/datalytika/calculateguru/issues">
