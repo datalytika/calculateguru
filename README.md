@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/datalytika/calculateguru">
-    <img width="100%" src="https://github.com/datalytika/calculateguru/blob/main/CONVERT.JPG?raw=true" alt="@datalytika/calculateguru">
+    <img width="100%" src="https://i.imgur.com/cMg12hT.jpg" alt="@datalytika/calculateguru">
   </a>
   <br>
   <a href="https://github.com/datalytika/calculateguru/issues">
@@ -12,238 +12,104 @@
   <a href="https://github.com/datalytika/calculateguru/pulls">
     <img src="https://img.shields.io/github/issues-pr/Datalytika/calculateguru?color=0088ff&style=for-the-badge&logo=github" alt="@Datalytika/calculateguru's pull requests"/>
   </a>
-  <a href="https://github.com/Datalytika/calculateguru/generate">
-    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@Datalytika/calculateguru link to create a new repository from the template">
-  </a>
-  <a href="ttps://github.com/Datalytika/calculateguru/actions/workflows/shelltest.yml">
-    <img src="https://github.com/Datalytika/calculateguru/actions/workflows/shelltest.yml/badge.svg" alt="@Datalytika/calculateguru's tests">
-  </a>
 </p>
 
 ---
 
-## 🤔 **What is this template all about?**
+## 🤔 **What is this repo all about?**
 
-* This template can be used as a base layer for any of your future repositories/projects.
-* Make your project easy to maintain with **8 issue templates**.
-* Quick start your documentation with personalized **README badges** and a cool README structure.
-* Manage your issues with **20 issue labels** created just for you!
-* Make your _community healthier_ with all the guides like code of conduct, contributing, support, security...
-* Learn more with the [official GitHub guide on creating repositories from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-* To start using it; "**[click use this template](https://github.com/Datalytika/calculateguru/generate)**" and create your new repository,
-* All the basic setup is made through an easy script that will auto-detect all your data to make it lightning fast! 🗲🗲 clone your new repository and execute the `SETUP_TEMPLATE.sh` shell script to personalize the files with your private details. Check how to execute it [here](https://asciinema.org/a/425259).
-* All the markdown follows ["MarkdownLint" rules](https://github.com/DavidAnson/markdownlint).
+* This repo is a collection of, summarily, calculators. The solutions here can be used in web apps to facilitate back-end calculations eg; mortgage interest calculators for lenders websites.
+* We plan to make this repo easy to maintain and navigate by documenting all builds here in this README.md section.
+* For example; the table of contents below will have a link to the specific folder and a description of what the file is all about.
+* All the markdown follows ["MarkdownLint" rules](https://github.com/DavidAnson/markdownlint)!
+* Make the _community healthier_ with all the guides like code of conduct, contributing, support, security... I'll assume we have a basic idea of how to use git. Well, I'll share some steps below.
 
 ---
 
-## ⚡ **Installation**
+## ⚡ **Contributing**
 
-1. To create a new repository from this template **[generate your new repository from this template](https://github.com/Datalytika/calculateguru/generate)**
-for more information or guidance, follow the [GitHub guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-2. Install the [🤖 used GitHub bots](https://github.com/Datalytika/calculateguru#-used-github-bots) (recommended)
-3. Clone your new repository **[generated from this template](https://github.com/Datalytika/calculateguru/generate)** and `cd` into it.
-4. **Execute** the `SETUP_TEMPLATE.sh` shell script to **customize** the files with your data.
+If you want to contribute to this project and make it better, your help is very welcome. There are no special instructions on how to contribute to this project, but I'll note down steps if you're new to git.
 
-    ```bash
-    bash SETUP_TEMPLATE.sh
-    ```
+### How to make a clean pull request
 
-    Or
+- Create a personal fork of this project on Github. [Click me to fork this project now](https://github.com/datalytika/calculateguru/fork).
+- Clone the fork on your local machine. Your remote repo on Github is called `origin`.
+- Add the original repository as a remote called `upstream`.
+- If you created your fork a while ago be sure to pull upstream changes into your local repository.
+- Create a **new branch** to work on! Branch from `develop` if it exists as you read this, but I don't think we'll apply that here so just branch from `master`.
+- Implement/fix your feature, comment your code.
+- You'll have to add or change the documentation as needed after you contribute. The documentation is not so special for this project - there's a 'table of contents' at the bottom of this README.md. Follow the script as earlier contributions have done. Just link to the folder and a description of what your build does. We'll do this in alphabetical order.
+- At times you have many commits. Squash them into one commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
+- Push your branch to your fork on Github, the remote `origin`.
+- From your fork open a pull request in the correct branch. Target this project's `develop` branch if it exists as you read this. If not, go for`master`!
+- …
+- If the project's patron ;), currently [Lweya Joe](https://github.com/lweyajoe), requests further changes, just push them to your branch. 
+- Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
+your extra branch(es).
 
-    ```bash
-    ./SETUP_TEMPLATE.sh
-    ```
+⚠️ _Please, let's ensure our commit messages are in present tense. A commit message should describe what the commit, when applied, does to the code – not what you did to the code._ ⚠️
 
-    Additionally, watch *[this video](https://asciinema.org/a/425259)* to see **how to execute the script** or use *`bash SETUP_TEMPLATE.sh --help`* to obtain some extra information.
+⚠️ _Please, note that your sub-project can have its own README.md and documentation. It's good practice. Your README.md would obviously be inside your project's folder._ ⚠️
 
-    If the automatic detection of the username, project name or email is NOT right, please post an issue, and you can **manually correct** them using the optional arguments like: *`bash SETUP_TEMPLATE.sh --username=whatever --projectName=whatever --email=whatever --projectType=whatever`*
-
-5. **Review** every single file and **customize** it as you like.
-6. Build your project. 🚀
-
-⚠️ _Customize every file to fit your requirements_ ⚠️
-
----
-
-## 📚 **What does it include?**
-
-1. A **`SETUP_TEMPLATE.sh`** script that **MUST be executed right when you clone your repository**.
-The script will customize all the data with yours in all the files.
-
-   1. A README template file with a default template to start documenting your project. (it includes personalized badges and text with your project details)
-   1. A CHANGELOG template file based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
-   1. An [issue_label_bot.yaml](/.github/issue_label_bot.yaml) file to use the issue adder GitHub bot. [Activate it or check its documentation](https://github.com/marketplace/issue-label-bot).
-   1. A [config.yml](/.github/config.yml) file to modify multiple bot's behaviours.
-   1. A [settings.yml](/.github/settings.yml) file to use the popular settings GitHub bot. [Activate it or check its documentation](https://probot.github.io/apps/settings/).
-   1. A [CONTRIBUTING](/.github/CONTRIBUTING.md) explaining how to contribute to the project. [Learn more with the GitHub guide](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors).
-   1. A [SUPPORT](/.github/SUPPORT.md) explaining how to support the project. [Learn more with the GitHub guide](https://docs.github.com/en/github/building-a-strong-community/adding-support-resources-to-your-project).
-   1. A [SECURITY](/.github/SECURITY.md) with a guide on how to post a security issue. [Learn more with the GitHub guide](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository).
-   1. A [CODEOWNERS](/.github/CODEOWNERS) with the new user as the main owner. [Learn more with the GitHub guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners).
-   1. A [CODE_OF_CONDUCT](/.github/CODE_OF_CONDUCT.md) with a basic code of conduct. [Learn more with the GitHub guide](https://docs.github.com/en/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project).
-   1. A [PULL_REQUEST_TEMPLATE](/.github/pull_request_template.md) with a template for your pull request that closes issues with keywords. [Learn more with the GitHub guide](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository).
-   1. Multiple [issues templates](/.github/ISSUE_TEMPLATE). [Learn more with the GitHub guide](https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository).
-        1. A [config.yml](/.github/ISSUE_TEMPLATE/config.yml) with the config and information about the issue templates.
-        1. A [Blank issue template](/.github/ISSUE_TEMPLATE) with the super basic stuff, all the issues should contain.
-        1. A [Bug issue template](/.github/ISSUE_TEMPLATE/1-bug-report.md).
-        1. A [Failing test issue template](/.github/ISSUE_TEMPLATE/2-failing-test.md).
-        1. A [Documentation issue template](/.github/ISSUE_TEMPLATE/3-docs-bug.md).
-        1. A [Feature request issue template](/.github/ISSUE_TEMPLATE/4-feature-request.md).
-        1. An [Enhancement request issue template](/.github/ISSUE_TEMPLATE/5-enhancement-request.md).
-        1. A [Security report issue template](/.github/ISSUE_TEMPLATE/6-security-report.md).
-        1. A [Question or support issue template](/.github/ISSUE_TEMPLATE/7-question-support.md).
+⚠️ _Some contributors would like to share screenshots of tests on their build. Please do not upload image files to the repo. We recommend all images to be shared as links to [imgur](https://imgur.com)_ ⚠️
 
 ---
 
-### 🌲 **Project tree**
+## 📚 **Table of Contents**
 
-Files that will get removed after the execution of `SETUP_TEMPLATE.sh` are not shown! 🙈
-
-```text
-.
-├── CHANGELOG.md
-├── .github
-│   ├── CODE_OF_CONDUCT.md
-│   ├── CODEOWNERS
-│   ├── config.yml
-│   ├── CONTRIBUTING.md
-│   ├── FUNDING.yml
-│   ├── issue_label_bot.yaml
-│   ├── ISSUE_TEMPLATE
-│   │   ├── 1-bug-report.md
-│   │   ├── 2-failing-test.md
-│   │   ├── 3-docs-bug.md
-│   │   ├── 4-feature-request.md
-│   │   ├── 5-enhancement-request.md
-│   │   ├── 6-security-report.md
-│   │   ├── 7-question-support.md
-│   │   └── config.yml
-│   ├── ISSUE_TEMPLATE.md
-│   ├── pull_request_template.md
-│   ├── SECURITY.md
-│   ├── settings.yml
-│   └── SUPPORT.md
-├── .gitignore
-└── README.md
-
-2 directories, 22 files
-```
-
+1. Property Value Calculator
+   1. Initial contributor: [Joseph Lweya](https://github.com/lweyajoe)
+   2. Additional contributors: ... ... .
+   3. Project files: [Link](https://github.com/datalytika/calculateguru/tree/main/Interest-Calculator/interest-calculator-master)
+   4. Project description: This calculator estimates the value of your property based on inputs from historical data.
+   
 ---
 
-## 📝 **Additional notes**
+### 🔖 Using .github/settings.yml
 
-* After **[generating your new repo with this template](https://github.com/Datalytika/calculateguru/generate)**, make sure to, right after you clone it, run the script `SETUP_TEMPLATE.sh`.
-
-* Then you will be presented with all the files modified with your project details and information. It is very important to **manually review every file** to check if it fits your requirements and performs any necessary changes to customize the project as you want.
-
-* If you are using **Windows** and you don't know how to execute the `SETUP_TEMPLATE.sh` script:
-  1. Install **[git for Windows](https://git-scm.com/download/win)**.
-  2. Right-click on the git repository folder and click "*git bash here*".
-  3. Then just perform *`bash SETUP_TEMPLATE.sh`* **or** *`chmod u+x SETUP_TEMPLATE.sh && ./SETUP_TEMPLATE.sh`*.
-
-### 🤖 **Used GitHub bots**
-
-These are recommended bots that are prepared and configured for this template. If you install them your coding experience will probably be much better.
-We deeply recommend at least installing the [issue label bot](https://github.com/marketplace/issue-label-bot) as this bot is the one that adds all the labels used in the issue templates.
-
-1. The `issue_label_bot.yaml` file depends on the **[issue label bot](https://github.com/marketplace/issue-label-bot)** (✓ highly recommended).
-2. The `settings.yml` file depends on the **[settings label bot](https://probot.github.io/apps/settings/)** (optional).
-3. The `config.yml` file depends on the bot **[welcome bot](https://probot.github.io/apps/welcome/)** and **[to-do bot](https://probot.github.io/apps/todo/)** (optional).
+The bot [probot-settings](https://probot.github.io/apps/settings/) is installed for this repo. Don't worry if you are not familiar with it. **Hint:** It allows a contributor to change the settings of this repo. ie; You can now create and push changes to the repo's settings. That means a repo-name-change request can be pushed by you, pulled and then approved and merged by the maintainer of this project.
 
 ---
-
-## 📸 **Screenshots**
-
-A couple of screenshots to delight you before you use this template.
-
-### 🔺 All the issue templates
-
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/SDJixBz.png" alt="All the issue templates.">
-</p>
-
-### 🔻 An issue template opened
-
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/r5AiLWu.png" alt="Bug issue template opened.">
-</p>
-
-### 📘 The README template
-
-Badges and texts will be replaced with your project details!
-
-<p align="center">
-  <img width="70%" height="70%" src="" alt="README.md template.">
-
-  Or watch [this video](https://gifs.com/gif/datalytika-s-readme-md-MwO5E3) to see the whole README template.
-</p>
-
-### 🔖 The labels for your issues
-
-If the bot [probot-settings](https://probot.github.io/apps/settings/) is not installed you will not have these beautiful labels! (there are actually more issue labels than in the image!)
-
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/dS91k6R.png" alt="LABELS">
-</p>
-
-### 📝 The CHANGELOG template
-
-(project name and project type will be replaced with yours)
-
-<p align="center">
-  <img width="70%" height="70%" src="" alt="CHANGELOG.md template.">
-</p>
 
 ### 🛡️ Security policy
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/ArwDQTi.png" alt="Security issue.">
-</p>
-
-### 💼 Community profile at 100%
-
-<p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/kRt3lPs.png" alt="Community profile.">
+  <img width="70%" height="70%" src="https://i.imgur.com/0Fqua7n.png" alt="Security issue.">
 </p>
 
 ---
 
 ## 🕵️ **Extra recommendations**
 
-For the right maintenance of the CHANGELOG.md, we recommend this [VSCode extension](https://github.com/Datalytika/Changelog-and-Markdown-snippets)
-and the read and understanding of the [keep a changelog guide](https://keepachangelog.com/en/1.0.0/).
-Read and comment about it in this [dev.to post](https://dev.to/datalytika/the-ultimate-github-calculateguru-1264).
-We also recommend installing all the [used bots](https://github.com/Datalytika/calculateguru#-used-github-bots).
-
-## 💉 **Project tests**
-
 If you want to improve the development of this project, you must, after changing or improving whatever, run the project's tests to prove that they are working.
 
 To do so:
-
-```bash
-bash tests/TESTS_RUNNER.sh
-```
+Use compiler at [Techie's Site](https://techiedelight.com/compiler/)
 
 ---
 
-## 🍰 **Supporters and donators**
+## 🍰 **Supporters**
 
 <a href="https://github.com/Datalytika/calculateguru/generate">
-  <img alt="@Datalytika/calculateguru's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
+  <img alt="@Datalytika/calculateguru's brand logo without text" align="right" src="https://i.imgur.com/BMgjVVu.jpg" width="18%" />
 </a>
 
-We are currently looking for new donators to help and maintain this project! ❤️
+We are not currently looking for **donators**. Just support. You can support by mentioning this project in blogs, news articles etc. Help maintain this project by recruiting contributors! ❤️
 
-By donating, you will help the development of this project, and *you will be featured in this project's README.md*, so everyone can see your kindness and visit your content ⭐.
+By supporting, you will help the development of this project, and *you will be featured in this project's README.md* on the supporters section, so everyone can see your kindness and visit your content ⭐.
 
 <a href="https://github.com/sponsors/Datalytika">
-  <img src="https://img.shields.io/badge/Sponsor-Datalytika/project template-blue?logo=github-sponsors&style=for-the-badge&color=red">
+  <img src="https://img.shields.io/badge/Support-Datalytika/project template-blue?logo=github-sponsors&style=for-the-badge&color=red">
 </a>
+
+### 🍰 **List of Supporters**
+1.
+2.
+3.
 
 ---
 
-## 🎉 Was the template helpful? Help us raise these numbers up
+## 🎉 Is the project useful? Help us raise these numbers up
 
 [![GitHub's followers](https://img.shields.io/github/followers/Datalytika.svg?style=social)](https://github.com/Datalytika)
 [![GitHub stars](https://img.shields.io/github/stars/Datalytika/calculateguru.svg?style=social)](https://github.com/Datalytika/calculateguru/stargazers)
@@ -251,9 +117,5 @@ By donating, you will help the development of this project, and *you will be fea
 [![GitHub forks](https://img.shields.io/github/forks/Datalytika/calculateguru.svg?style=social)](https://github.com/Datalytika/calculateguru/network/members)
 
 Enjoy! 😃
-
-> ⚠️ Remember that this template should be reviewed and modified to fit your requirements.
-> The script **SETUP_TEMPLATE.sh** should be executed right when you clone your new repository generated from [here](https://github.com/Datalytika/calculateguru/generate).
-> There will be files that will need *manual revision* ⚠️
 
 _Made with a lot of ❤️❤️ by **[@Datalytika](https://github.com/Datalytika)**_
